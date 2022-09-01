@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgb(243, 151, 151) , blueviolet);
+    height: 100vh;
+ }
+ 
+ 
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    background-color: rgb(119, 147, 213);
+    margin-bottom: 30px;
+}
+
+
+.logo{
+    height: 53px;
+    margin: 0px 5px;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 955px;
+    border: 3px solid rgb(235, 222, 222);
+    margin: auto;
+    height: 70vh;
+    padding: 20px;
+    overflow-y: auto;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.message {
+    background-color: cadetblue;
+    max-width: 30%;
+    margin: 7px;
+    padding: 1px 7px;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+#send-container {
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 955px;
+    width: 100%;
+}
+
+#messageInp {
+    width: 92%;
+    border: 2px solid rgb(247, 242, 242);
+    border-radius: 5px;
+    height: 30px;
+    padding: 0px 10px;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: green;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 955px) {
+    #send-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn {
+        background-color: green;
+        color: white;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+  }
+  
